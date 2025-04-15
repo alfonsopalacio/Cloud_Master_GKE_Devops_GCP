@@ -1,0 +1,7 @@
+https://www.freecodecamp.org/news/git-list-remote-branches/
+
+Command #1: git branch -r
+This Git command will show you remote branches. The -r flag here is short for --remotes.
+
+Command #3: git ls-remote
+This Git command displays not only the names of remote repositories, but their reference information, including Git commit hash.
