@@ -5,3 +5,9 @@ This Git command will show you remote branches. The -r flag here is short for --
 
 Command #3: git ls-remote
 This Git command displays not only the names of remote repositories, but their reference information, including Git commit hash.
+
+FORZAR MERGE con error  "refusing to merge unrelated histories"
+    USAR   --allow-unrelated-histories
+    QUEDANDO   git merge master --allow-unrelated-histories
+
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
